@@ -1,0 +1,13 @@
+service: baltika-api
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  hello:
+    handler: handler.matches
+    events:
+      - http:
+          path: matches
+          method: get

@@ -1,0 +1,22 @@
+{
+  "name": "baltika-core",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node handler.js",
+    "dev": "nodemon handler.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
